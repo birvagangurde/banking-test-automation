@@ -1,0 +1,24 @@
+# This file lists all Python packages we need to install
+
+# Core Testing - The main tools
+pytest==8.4.2              # Testing framework (runs our tests)
+selenium==4.15.2           # Controls the browser (clicks buttons, fills forms)
+requests==2.31.0           # Makes API calls (like Postman)
+
+# Reporting - Makes pretty test reports
+pytest-html==4.1.1       # Creates HTML reports
+allure-pytest==2.13.2      # Creates beautiful Allure reports
+
+# Utilities - Helper tools
+python-dotenv==1.0.0       # Reads .env file (for passwords)
+faker==20.1.0              # Creates fake data (random names, emails)
+openpyxl==3.1.5           # Reads/writes Excel files
+
+# API Testing - For testing APIs
+jsonschema==4.20.0         # Validates API responses
+
+# Performance Testing - Load testing
+locust==2.19.1             # Tests how many users the site can handle
+
+# Cloud Testing - For running tests in cloud
+browserstack-local==1.2.12  # Connects to BrowserStack
