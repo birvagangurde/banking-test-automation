@@ -2,7 +2,7 @@
 
 # Core Testing - The main tools
 pytest==8.4.2              # Testing framework (runs our tests)
-selenium==4.15.2           # Controls the browser (clicks buttons, fills forms)
+selenium==4.36.0         # Controls the browser (clicks buttons, fills forms)
 requests==2.31.0           # Makes API calls (like Postman)
 
 # Reporting - Makes pretty test reports
