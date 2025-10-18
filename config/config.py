@@ -1,5 +1,8 @@
-import os  # For accessing environment variables
-from .env import load_dotenv  # For reading .env file
+from dotenv import load_dotenv
+import os
+
+# import os  # For accessing environment variables
+# from dotenv import load_dotenv   # For reading .env file
 
 # Load environment variables from .env file
 load_dotenv()
